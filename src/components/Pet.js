@@ -11,7 +11,7 @@ class Pet extends React.Component {
             {this.props.pet.name} {this.props.pet.gender === "male" ? '♂':'♀'}
           </a>
           <div className="meta">
-            <span className="date">PET TYPE</span>
+            <span className="date">{this.props.pet.type}</span>
           </div>
           <div className="description">
             <p>Age: PET AGE</p>
